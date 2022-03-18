@@ -28,9 +28,11 @@ img {
  
 }
 
+
 body {
     background-color: rgb(237, 237, 237);
 }
+
 
 #body-container {
     display: flex;
@@ -38,8 +40,6 @@ body {
     flex-wrap: wrap;
    
 }
-
-
 
 
 .main-container {
@@ -51,14 +51,15 @@ body {
     margin-left: 30px;
 }
 
+
 #check-boxes {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     width: 20px;
-    
 }
+
 
 .icon-button {
     background-color: rgb(237, 237, 237);
@@ -71,6 +72,7 @@ body {
     transform: translateY(4px);
 }
 
+
 #icon-boxes {
     width: 100px;
     display: flex;
@@ -78,6 +80,7 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
 
 #button-boxes {
     width: 100px;
@@ -88,6 +91,7 @@ body {
     margin-left: 50px;
 }
 
+
 #play-again {
     width: 100px;
     height: 60px;
@@ -96,13 +100,14 @@ body {
     font-family: 'Roboto';
     font-size: 18px;
     border-color: aqua;
-    
 }
+
 
 #play-again:active {
     transform: translateX(4px);
     background-color: rgb(178, 224, 224);
 }
+
 
 #text-boxes {
     width: 80px;
@@ -113,10 +118,12 @@ body {
     margin-left: 60px;
 }
 
+
 p {
     font-family: 'Roboto';
     font-size: 18px;
 }
+
 
 #compare-boxes {
     display: flex;
@@ -125,8 +132,8 @@ p {
     justify-content: center;
     align-items: flex-end;
     margin-left: 10px;
-    
 }
+
 
 #result-boxes {
     display: flex;
@@ -135,23 +142,22 @@ p {
     align-items: center;
     width: 130px;
     margin-left: 30px;
-  
 }
+
 
 #dot {
     color: red;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-weight: bold;
-
 }
 
 
 #score-boxes {
     width: 300px;
     margin-left: 20px;
-    
 }
+
 
 table {
     font-family: 'Roboto', sans-serif;
@@ -163,20 +169,23 @@ thead th {
     height: 40px;
 }
 
+
 tbody th {
     background-color: rgb(216, 215, 215);
     height: 30px;
 }
 
+
 tr:nth-child(n+11) {
     display: none;
-    
 }
+
 
 #text-below-table {
     font-family: 'Roboto', sans-serif;
     color: red;
 }
+
 
 #note-boxes {
     text-align: center;
@@ -188,16 +197,12 @@ tr:nth-child(n+11) {
 }
 
 
-
-
-
 .footer-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-   
-    
 }
+
 
 #left-footer {
     display: flex;
@@ -205,10 +210,8 @@ tr:nth-child(n+11) {
     justify-content: space-between;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    
-
-
 }
+
 
 input {
     border-radius: 5px;
@@ -216,14 +219,12 @@ input {
     font-family: 'Roboto', sans-serif;
     border: none;
     background-color: rgb(59, 219, 219);
-
 }
+
 
 input[type = text]:focus {
     background-color: rgb(208, 226, 231);
-    
 }
-
 
 
 #saveForUser {
@@ -233,13 +234,14 @@ input[type = text]:focus {
     border-radius: 5px;
     background-color: rgb(59, 219, 219);
     font-family: 'Roboto', sans-serif;
-    
 }
+
 
 #saveForUser:active {
     transform: translateY(3px);
     background-color: rgb(178, 224, 224);
 }
+
 
 #printUser {
     width: 120px;
@@ -250,6 +252,7 @@ input[type = text]:focus {
     border: 4px black;
 }
 
+
 #refresh {
     border-color: aqua;
     height: 24px;
@@ -259,10 +262,12 @@ input[type = text]:focus {
     font-family: 'Roboto', sans-serif;
 }
 
+
 #refresh:active {
     transform: translateY(3px);
     background-color: rgb(178, 224, 224);
 }
+
 
 #error {
     color: red;
