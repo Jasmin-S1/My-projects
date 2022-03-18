@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="shortcut icon" href="/images/profits.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Open+Sans:wght@300&family=Roboto:wght@300&family=Akaya+Telivigala&family=Supermercado+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="/images/rps.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="/images/icons8-news-96.png"
+      type="image/x-icon"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    
+      
+        <header>
+          <div class="left">
+            <img id="logo" src="/images/logo2.png" alt="" />
+          </div>
+        </header>
+      
+
+        <main>
+          <div class="main-container">
+            <div id="check-boxes">
+              <input type="radio" name="check" id="rockRadio" />
+              <input type="radio" name="check" id="paperRadio" />
+              <input type="radio" name="check" id="scissorsRadio" />
+            </div>
+            <div id="icon-boxes">
+              <button
+                class="icon-button"
+                id="rock"
+                onclick="userChoice(this.id); checkedRadioButton('rockRadio')"
+              >
+                <img src="/images/rock.png" alt="Rock" />
+              </button>
+              <button
+                class="icon-button"
+                id="paper"
+                onclick="userChoice(this.id); checkedRadioButton('paperRadio') "
+              >
+                <img id="paper-image" src="/images/paper.png" alt="Paper" />
+              </button>
+              <button
+                class="icon-button"
+                id="scissors"
+                onclick="userChoice(this.id); checkedRadioButton('scissorsRadio')"
+              >
+                <img src="/images/scissors.png" alt="Scissors" />
+              </button>
+            </div>
+            <div id="text-boxes">
+              <p>You:</p>
+              <br /><br /><br />
+              <p>Computer:</p>
+            </div>
+            <div id="compare-boxes">
+              <div id="user"></div>
+              <br /><br /><br />
+              <div id="computer"></div>
+            </div>
+            <div id="result-boxes">
+              <div id="dot"></div>
+            </div>
+            <div id="score-boxes">
+              <table id="score-table">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Points</th>
+                  </tr>
+                </thead>
+                <tbody id="tableBody">
+                  <tr>
+                    <th id="#1"></th>
+                    <th id="name1"></th>
+                    <th id="point1"></th>
+                  </tr>
+                  <tr>
+                    <th id="#2"></th>
+                    <th id="name2"></th>
+                    <th id="point2"></th>
+                  </tr>
+                  <tr>
+                    <th id="#3"></th>
+                    <th id="name3"></th>
+                    <th id="point3"></th>
+                  </tr>
+                  <tr>
+                    <th id="#4"></th>
+                    <th id="name4"></th>
+                    <th id="point4"></th>
+                  </tr>
+                  <tr>
+                    <th id="#5"></th>
+                    <th id="name5"></th>
+                    <th id="point5"></th>
+                  </tr>
+                  <tr>
+                    <th id="#6"></th>
+                    <th id="name6"></th>
+                    <th id="point6"></th>
+                  </tr>
+                  <tr>
+                    <th id="#7"></th>
+                    <th id="name7"></th>
+                    <th id="point7"></th>
+                  </tr>
+                  <tr>
+                    <th id="#8"></th>
+                    <th id="name8"></th>
+                    <th id="point8"></th>
+                  </tr>
+                  <tr>
+                    <th id="#9"></th>
+                    <th id="name9"></th>
+                    <th id="point9"></th>
+                  </tr>
+                  <tr>
+                    <th id="#10"></th>
+                    <th id="name10"></th>
+                    <th id="point10"></th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="note-boxes">
+              <div>
+                <p><em>Note</em></p>
+              </div>
+              <div>
+                <p>Win! &#8594; 2 points</p>
+              </div>
+              <div>
+                <p>Defeat! &#8594; -2 points</p>
+              </div>
+              <div>
+                <p>Tie! &#8594; 1 points</p>
+              </div>
+            </div>
+          </div>
+        </main>
+      
+
+
+     
+        <footer>
+          <div class="footer-container">
+            <div id="left-footer">
+              <div>Player:&nbsp;</div>
+              <div>
+                <input
+                  type="text"
+                  id="userText"
+                  placeholder="User name"
+                  maxlength="7"
+                />
+              </div>
+              <div>
+                <input type="button" id="saveForUser" value="Save" />
+              </div>
+              <div>
+                <input type="button" id="refresh" value="Delete all" />
+              </div>
+              <div>
+                <p id="error"></p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      
+    
+
+      <script src="/index.js"></script>
+
+  </body>
+</html>

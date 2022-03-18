@@ -1,0 +1,270 @@
+html {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: flex-start;
+}
+
+
+#logo {
+    height: auto;
+    width: auto;
+    max-width: 130px;
+    max-height: 130px;
+    
+}
+
+
+img {
+    height: auto;
+    width: auto;
+    max-width: 70px;
+    max-height: 70px;
+    margin-left: 40px;
+ 
+}
+
+body {
+    background-color: rgb(237, 237, 237);
+}
+
+#body-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+
+
+
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    height: 400px;
+    margin-left: 30px;
+}
+
+#check-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 20px;
+    
+}
+
+.icon-button {
+    background-color: rgb(237, 237, 237);
+    border: none;
+    padding-left: 0px;
+    margin-left: 10px;
+}
+
+.icon-button:active {
+    transform: translateY(4px);
+}
+
+#icon-boxes {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#button-boxes {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+#play-again {
+    width: 100px;
+    height: 60px;
+    border-radius: 9px;
+    background-color: rgb(59, 219, 219);
+    font-family: 'Roboto';
+    font-size: 18px;
+    border-color: aqua;
+    
+}
+
+#play-again:active {
+    transform: translateX(4px);
+    background-color: rgb(178, 224, 224);
+}
+
+#text-boxes {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 60px;
+}
+
+p {
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+#compare-boxes {
+    display: flex;
+    width: 70px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 10px;
+    
+}
+
+#result-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    margin-left: 30px;
+  
+}
+
+#dot {
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+
+#score-boxes {
+    width: 300px;
+    margin-left: 20px;
+    
+}
+
+table {
+    font-family: 'Roboto', sans-serif;
+}
+
+thead th {
+    background-color: rgb(88, 209, 209);
+    width: 200px;
+    height: 40px;
+}
+
+tbody th {
+    background-color: rgb(216, 215, 215);
+    height: 30px;
+}
+
+tr:nth-child(n+11) {
+    display: none;
+    
+}
+
+#text-below-table {
+    font-family: 'Roboto', sans-serif;
+    color: red;
+}
+
+#note-boxes {
+    text-align: center;
+    width: 200px;
+    height: 180px;
+    margin-left: 50px;
+    background-color: rgb(88, 209, 209);
+    border-radius: 10px;
+}
+
+
+
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+   
+    
+}
+
+#left-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    
+
+
+}
+
+input {
+    border-radius: 5px;
+    height: 21px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background-color: rgb(59, 219, 219);
+
+}
+
+input[type = text]:focus {
+    background-color: rgb(208, 226, 231);
+    
+}
+
+
+
+#saveForUser {
+    border-color: aqua;
+    height: 24px;
+    margin-left: 4px;
+    border-radius: 5px;
+    background-color: rgb(59, 219, 219);
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#saveForUser:active {
+    transform: translateY(3px);
+    background-color: rgb(178, 224, 224);
+}
+
+#printUser {
+    width: 120px;
+    height: 30px;
+    background-color: rgb(154, 187, 216);
+    color: black;
+    font-size: larger;
+    border: 4px black;
+}
+
+#refresh {
+    border-color: aqua;
+    height: 24px;
+    margin-left: 4px;
+    border-radius: 5px;
+    background-color: rgb(59, 219, 219);
+    font-family: 'Roboto', sans-serif;
+}
+
+#refresh:active {
+    transform: translateY(3px);
+    background-color: rgb(178, 224, 224);
+}
+
+#error {
+    color: red;
+    margin-left: 5px;
+}
