@@ -52,8 +52,6 @@ function saveUserName() {
 }
 saveTextButton.addEventListener("click", saveUserName);
 
-
-
 userVariable.addEventListener("keyup", function (KeyboardEvent) {
   if (KeyboardEvent.keyCode === 13) {
     saveTextButton.click();
@@ -73,8 +71,6 @@ refreshButton.addEventListener("click", refreshPage);
 function checkedRadioButton(checkedId) {
   document.getElementById(checkedId).checked = true;
 }
-
-
 
 const computerChoices = ["rock", "paper", "scissors"];
 const userChoices = {
